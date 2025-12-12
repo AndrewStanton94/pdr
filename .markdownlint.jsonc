@@ -1,0 +1,6 @@
+// See https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md for rule documentation
+// Using https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint
+{
+    "MD024": false, // Multiple headers with the same content rule disabled
+    "MD013": false // Line length rule disabled
+}
