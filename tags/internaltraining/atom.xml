@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://pdr.andrewstanton.tech/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <tabi:metadata xmlns:tabi="https://github.com/welpo/tabi">
+        <tabi:base_url>https:&#x2F;&#x2F;pdr.andrewstanton.tech</tabi:base_url>
+        <tabi:separator>
+            •
+        </tabi:separator>
+        <tabi:about_feeds>This is a web feed, also known as an Atom feed. Subscribe by copying the URL from the address bar into your newsreader. Visit About Feeds to learn more and get started. It&#x27;s free.</tabi:about_feeds>
+        <tabi:visit_the_site>Visit website</tabi:visit_the_site>
+        <tabi:recent_posts>Recent posts</tabi:recent_posts>
+        <tabi:last_updated_on>Updated on $DATE</tabi:last_updated_on>
+        <tabi:default_theme></tabi:default_theme>
+        <tabi:post_listing_date>both</tabi:post_listing_date>
+        <tabi:current_section>internalTraining</tabi:current_section>
+    </tabi:metadata><link rel="extra-stylesheet" href="https://pdr.andrewstanton.tech/skins/sakura.css?h=2d9c69af51135683e3bd" /><title>PDR - internalTraining</title>
+        <subtitle>A blog about my professional learnings</subtitle>
+    <link href="https://pdr.andrewstanton.tech/tags/internaltraining/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://pdr.andrewstanton.tech/tags/internaltraining/" rel="alternate" type="text/html"/>
+    <generator uri="https://www.getzola.org/">Zola</generator><updated>2025-12-09T00:00:00+00:00</updated><id>https://pdr.andrewstanton.tech/tags/internaltraining/atom.xml</id><entry xml:lang="en">
+        <title>MS Bookings</title>
+        <published>2025-12-09T00:00:00+00:00</published>
+        <updated>2025-12-09T00:00:00+00:00</updated>
+        <author>
+            <name>Andrew Stanton</name>
+        </author>
+        <link rel="alternate" href="https://pdr.andrewstanton.tech/blog/20251209-msbookings/" type="text/html"/>
+        <id>https://pdr.andrewstanton.tech/blog/20251209-msbookings/</id>
+        
+            <content type="html">&lt;p&gt;Sean showed us &lt;a href=&quot;https:&#x2F;&#x2F;outlook.office.com&#x2F;bookings&#x2F;homepage&quot;&gt;MS Bookings&lt;&#x2F;a&gt;, this is a tool from Microsoft to make it easier to book appointments. Users can set up spans of time and others can create appointments in these windows. While it works with Outlook, it is not part of Outlook so it’s a bit less tightly integrated than it could be.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;making-a-booking&quot;&gt;Making a booking&lt;&#x2F;h2&gt;
+&lt;p&gt;The main parameters to provide&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Title and Description: so it’s clear what these bookings are for&lt;&#x2F;li&gt;
+&lt;li&gt;Category: these are the ones in Outlook, letting you filter you calendar&lt;&#x2F;li&gt;
+&lt;li&gt;Location: this will suggest locations from general map information, it doesn’t integrate with the organisations room booking data. It can also accept free text.&lt;&#x2F;li&gt;
+&lt;li&gt;Teams meeting toggle: to add a Teams link to these bookings&lt;&#x2F;li&gt;
+&lt;li&gt;Duration: 15, 30, 45 minutes and 1 hour are suggested by default but a custom value can be given.&lt;&#x2F;li&gt;
+&lt;li&gt;Public&#x2F;Private: When the booking is Public it will be shown on your personal booking page. Private bookings can only be accessed via a direct link, which allows you to manage access to it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;extra-settings&quot;&gt;Extra settings&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;schedule&quot;&gt;Schedule&lt;&#x2F;h4&gt;
+&lt;p&gt;By default Bookings will “Use my regular meeting hours” the information from Outlook Settings (Calendar -&amp;gt; Work hours and location). You can switch this to a customised schedule which lets you specify the hours of the days to offer. These can be limited to a given start and end date.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;buffer-times&quot;&gt;Buffer times&lt;&#x2F;h4&gt;
+&lt;p&gt;To protect you from back to back meetings, you can add an optional 5min to 3 hours between bookings. This is clear but the “Limit start time to” defaults to 30 minute intervals.&lt;&#x2F;p&gt;
+&lt;div class=&quot;admonition info&quot;&gt;
+    &lt;div class=&quot;admonition-icon admonition-icon-info&quot;&gt;&lt;&#x2F;div&gt;
+    &lt;div class=&quot;admonition-content&quot;&gt;
+        &lt;strong class=&quot;admonition-title&quot;&gt;Todo&lt;&#x2F;strong&gt;
+        &lt;p&gt;Experiment with combinations of durations, buffers and start time limits. Concerned that the wrong mix could block out too much time&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;h4 id=&quot;lead-times&quot;&gt;Lead times&lt;&#x2F;h4&gt;
+&lt;p&gt;This lets you limit how soon or how far away you can book an appointment.&lt;&#x2F;p&gt;
+&lt;div class=&quot;admonition info&quot;&gt;
+    &lt;div class=&quot;admonition-icon admonition-icon-info&quot;&gt;&lt;&#x2F;div&gt;
+    &lt;div class=&quot;admonition-content&quot;&gt;
+        &lt;strong class=&quot;admonition-title&quot;&gt;Todo&lt;&#x2F;strong&gt;
+        &lt;p&gt;Check if invalid combinations of buffer windows and schedule start&#x2F;end times are detected and prevented.&lt;&#x2F;p&gt;
+
+    &lt;&#x2F;div&gt;
+&lt;&#x2F;div&gt;
+&lt;h4 id=&quot;emails&quot;&gt;Emails&lt;&#x2F;h4&gt;
+&lt;p&gt;You can create one or more emails with a rich text message before the event as a reminder, you can also send follow ups in the same way. These options go between 15 mins and 2 weeks.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;limitations&quot;&gt;Limitations&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;bookings-doesn-t-protect-its-windows&quot;&gt;Bookings doesn’t protect its windows&lt;&#x2F;h3&gt;
+&lt;p&gt;There is no indication if someone tries to book a normal meeting during these times. I checked in both the basic event creation window and the meeting scheduler.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;questions&quot;&gt;Questions&lt;&#x2F;h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Is the booking fully public or org level?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        <summary type="html">An introduction to MS Bookings from our wonderful training team</summary>
+        </entry>
+</feed>

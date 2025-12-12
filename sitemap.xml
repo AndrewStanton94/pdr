@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="https://pdr.andrewstanton.tech/sitemap_style.xsl" type="text/xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://pdr.andrewstanton.tech/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/archive/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/blog/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/blog/20251209-msbookings/</loc>
+        <lastmod>2025-12-09</lastmod>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/blog/hello/</loc>
+        <lastmod>2093-02-16</lastmod>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/blog/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/projects/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/projects/cool-project/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/tags/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/tags/demo/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/tags/internaltraining/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/tags/meta/</loc>
+    </url>
+    <url>
+        <loc>https://pdr.andrewstanton.tech/tags/microsoft/</loc>
+    </url>
+</urlset>
